@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TestTask.Domain
+﻿namespace TestTask.Domain
 {
     internal class Game
     {
@@ -20,8 +18,6 @@ namespace TestTask.Domain
                     KindOfShips[decks]++;
                 }
             }
-            Console.WriteLine("game test");
-
             return count;
         }
     }

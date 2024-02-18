@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TestTask.Domain
+﻿namespace TestTask.Domain
 {
     internal class Field
     {
@@ -30,7 +28,6 @@ namespace TestTask.Domain
             countOfDecks = MarkShip(x + 1, y, countOfDecks + 1);
             countOfDecks = MarkShip(x, y - 1, countOfDecks + 1);
             countOfDecks = MarkShip(x, y + 1, countOfDecks + 1);
-            Console.WriteLine("field test");
 
             return countOfDecks;
         }
